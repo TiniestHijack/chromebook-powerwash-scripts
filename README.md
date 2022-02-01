@@ -6,8 +6,7 @@ Some short scripts to use with Arduino boards that mimic keystrokes to reset chr
 1. Download as zip or clone the repository
 2. Open the .ino of your choosing (either powerwash or powerwash_after_restart) with Arduino IDE
 3. Plug in your board (I used a pro micro) and upload the code. Make sure you pick the right COM port!
-4a. For the powerwash script, turn on the chromebook and click nothing then plug it in and let it run.
-4b. For the powerwash_after_restart script, press ctrl+shift+alt+r on your chromebook and follow the prompts to restart your computer. Once the computer restarts, press nothing and plug in the Arduino to let it run.
+4. For the powerwash script, turn on the chromebook and click nothing then plug it in and let it run. For the powerwash_after_restart script, press ctrl+shift+alt+r on your chromebook and follow the prompts to restart your computer. Once the computer restarts, press nothing and plug in the Arduino to let it run.
 
 # Code Context
 You will likely have to make changes to some of the delays and commands depending on what machine you're using and how your internet is setup.
